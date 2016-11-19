@@ -24,7 +24,7 @@ RUN cp /usr/share/unattended-upgrades/20auto-upgrades /etc/apt/apt.conf.d/20auto
 
 RUN npm install -g grunt-cli pm2
 # Checks out a fresh copy of the repo.
-RUN git clone https://github.com/enketo/enketo-express.git
+RUN git clone https://github.com/iahmedani/enketo-express
 WORKDIR /srv/enketo-express
 RUN npm cache clean &&\
     npm install
