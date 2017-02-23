@@ -9,7 +9,7 @@
         "legacy formhub": false,
         "authentication": {
             "managed by enketo": true,
-            "allow insecure transport": false,
+            "allow insecure transport": true,
             "external login url that sets cookie": "http://example.com/login?return={RETURNURL}"
         }
     },
